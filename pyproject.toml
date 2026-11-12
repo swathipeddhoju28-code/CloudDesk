@@ -1,0 +1,19 @@
+[project]
+name = "clouddesk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.4.10",
+]
+
+[project.scripts]
+clouddesk = "main:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
